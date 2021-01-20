@@ -21,6 +21,6 @@ function findVowels(str) {
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
-// console.log(findVowels('здравствуй')); // 2
-// console.log(findVowels('привет')); // 2
-// console.log(findVowels('хеллоу')); // 3
+console.log(findVowels('здравствуй')); // 2
+console.log(findVowels('привет')); // 2
+console.log(findVowels('хеллоу')); // 3
