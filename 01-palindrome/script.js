@@ -45,6 +45,7 @@ function palindrome(str) {
     startHalfStr(letters).toUpperCase() ===
     reversStr(endHalfStr(letters)).toUpperCase()
   );
+// return str.split("").reverse().join("").toLowerCase().replace(/[/\s.,!?;]*/g, '') === str.toLowerCase().replace(/[/\s.,!?;]*/g, '')
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
