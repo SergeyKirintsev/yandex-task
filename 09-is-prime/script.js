@@ -9,14 +9,16 @@
  * если n простое, и false — если нет.
 */
 
-function isPrime(n) {
-    // Напишите код здесь
-}
+const isPrime = n => ![...Array(n).keys()].slice(2).map(i => !(n%i)).includes(true) && ![0,1].includes(n);
+
+// function isPrime(n) {
+//     // Напишите код здесь
+// }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
-console.log(isPrime(0)); // false
-console.log(isPrime(1)); // false
-console.log(isPrime(3)); // true
-console.log(isPrime(6)); // false
-console.log(isPrime(17)); // true
+// console.log(isPrime(0)); // false
+// console.log(isPrime(1)); // false
+// console.log(isPrime(3)); // true
+// console.log(isPrime(6)); // false
+// console.log(isPrime(17)); // true
